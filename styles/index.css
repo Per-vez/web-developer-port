@@ -1,0 +1,50 @@
+/* share font */
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    color: #181818;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.singleword{
+    font-size: 80px;
+    color: orangered;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background-color: orange;
+    border: 0px;
+    color: white;
+    font-weight: 400;
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+nav >ul{
+    display: flex;
+align-items: center ;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
