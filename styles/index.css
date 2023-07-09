@@ -1,29 +1,30 @@
 /* share font */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
-.name{
+.name {
     color: #181818;
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.singleword{
+.singleword {
     font-size: 80px;
     color: orangered;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background-color: orange;
     border: 0px;
@@ -33,18 +34,34 @@ line-height: normal;
     font-size: 20px;
 }
 
-nav >ul{
+nav>ul {
     display: flex;
-align-items: center ;
+    align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
     align-items: center;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: black;
+}
+
+/* header related style */
+.header {
+    border-color: background: var(--white-color, #FFF);
+    ;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 500px;
 }
