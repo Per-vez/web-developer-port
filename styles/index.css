@@ -139,7 +139,7 @@ main {
     font-size: 20px;
     font-weight: 300;
 }
-
+/* skill section */
 .skills-container{
     display: flex;
     justify-content: space-between;
@@ -153,7 +153,7 @@ main {
     height: 300px;
     padding: 30px;
 }
-
+/* resuem section */
 .resume-heading{
     text-align: center;
     font-weight: 800;
@@ -196,5 +196,30 @@ main {
 .cv-download{
    text-align: center;
    margin-top: 30px;
+   margin-bottom: 30px;
 
+}
+/* footer */
+footer{
+    background-color: bisque;
+}
+.footer-container{
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.footer-coloumn{
+    width: 50%;
+}
+.social-media{
+    display: flex;
+   margin-right: 10px;;
+}
+
+.form, input,textarea{
+    display: block;
+    margin-top: 20px;
+    padding: 15px 10px;
+    color: black;
 }
