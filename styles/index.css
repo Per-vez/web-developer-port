@@ -152,7 +152,9 @@ main {
     margin-right: 10px;
     height: 300px;
     padding: 30px;
-   
-   
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
 }
 
